@@ -6,7 +6,7 @@ from .serializers import *
   
 class AngularViewSet(APIView):
     
-    #serializer_class = ReactSerializer
+    #serializer_class = AngularSerializer
   
     def get(self, request):
         detail = {"message": 'Hello World!'} 
